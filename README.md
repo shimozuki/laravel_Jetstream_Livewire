@@ -31,20 +31,43 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-### Premium Partners
+### Installing 🔧
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
+_To use this project you will need to clone this repository or download it to your computer. If you choose to download it directly in the upper right part of the repository you will have the option, if it is not your case you can clone it using the following command._
 
+```ssh
+  $ git clone https://github.com/romerojoseing/laravel-jetstream.git
+```
+
+<br>
+
+## Use Project 👓
+
+_Follow this steps to run the framework, install dependencies necessaries._
+
+```ssh
+  $ composer install
+```
+
+```ssh
+  $ npm install && npm run dev
+```
+
+_Generate routes to storage and profile photos._
+
+```ssh
+  $ php artisan storage:link
+```
+
+_Migrate database_
+```ssh
+  $ php artisan migrate
+```
+
+_Run the Project_
+```ssh
+  $ php artisan serve
+```
 ## Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
